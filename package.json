@@ -1,0 +1,30 @@
+{
+  "name": "campaign-studio",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "description": "Minimal, anti-slop open-source social media campaign & carousel designer. Export crisp 2x retina PNGs right in your browser.",
+  "scripts": {
+    "dev": "vite --port 5175",
+    "build": "vite build",
+    "preview": "vite preview --port 4175",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "@fontsource-variable/outfit": "^5.2.5",
+    "@fontsource/jetbrains-mono": "^5.2.5",
+    "@lucide/svelte": "^1.72.0",
+    "html-to-image": "^1.11.13"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "@tailwindcss/vite": "^4.1.18",
+    "svelte": "^5.53.0",
+    "svelte-check": "^4.3.5",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
+
